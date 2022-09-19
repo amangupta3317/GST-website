@@ -1,0 +1,195 @@
+body{
+    background-color:aliceblue;
+    margin: 0%;
+}
+
+.top{
+    background-color:white;
+    color: black;
+    display:flex;
+    /* position: sticky; */
+    top: 0%;
+    /* text-align: center; */
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    
+}
+.top ul{
+    display: flex;
+    
+}
+.top ul li{
+    list-style-type:none;
+    padding: auto 10px;
+}
+.next p{
+    margin-left: 2em;
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+.next{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    
+}
+
+.next a{
+     border: 1px solid black;
+    float:right; 
+    border-radius: 4px;
+    font-weight: 300;
+    margin: 8px 0px 2px 2px;
+    text-decoration: none;
+    background-color: rgba(0, 255, 106, 0.932);
+    padding: 10px;
+    color: black;
+    height: 10px;
+    /* width: 2em; */
+    /* opacity: 1; */
+    
+}
+.up-logo{
+     background: url("fea.jpg");
+    /* opacity: 0.7;   */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15em;
+    border-radius: 5px;
+}
+.logo{
+    margin-top: 2px;
+    margin-left: 2px;
+    display: flex;
+    height: 8em;
+    /* opacity: 1; */
+    
+}
+  
+
+#one, #two, #three{
+    opacity: 1;
+}
+.a{
+    margin-left: 225px;
+}
+.next a:hover{
+    background-color:crimson;
+    color: white;
+    
+}
+
+.nara p{
+    margin-left: 22em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:black(137, 253, 181, 0.747);
+    display: inline-block;
+    color: black;
+}
+    
+.about{
+    border: 2px solid black;
+    background-color: rgba(185, 234, 250, 0.527);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2px;
+    height: 14em;
+}
+.about > p{
+    margin-left: 1em;
+
+}
+.about #gst{
+    margin-right: 1em;
+    margin-top: 1em;
+
+    height: 10em;
+    width: 23em;
+}
+#head{
+    margin-left: 5em;
+    background-color: white;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    background-color: azure;
+    /* border: 1px solid black; */
+    margin-top: 1em;
+    margin-left: 110px;
+    height: 16em;
+    width: 50em;
+    border-radius: 5px;
+    column-gap: normal;
+    row-gap: normal;
+
+}
+#ser{
+    text-align: center;
+}
+.item{
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    background-color: rgba(245, 149, 149, 0.534);
+    margin: 5px 3px 3px 2px;
+    height: 111px;
+    width: 157px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.found{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.found>h2{
+    text-align: center;
+}
+#ankur{
+    border-radius: 50%;
+    height: 20em;
+    position: relative;
+    left: 35%;
+}
+.found p{
+position: relative;
+
+left: 35%;
+    color:brown;
+    font-size: xx-large;
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+    
+#card{
+    height: 20em;
+}
+.footer{
+    background-color: rgba(192, 192, 192, 0.521);
+    height: 25em;
+    width: 100%;
+    text-align: center;
+    color: black;
+    margin-top: 5em;
+    border: 1px solid black;
+}
+.footer > h2{
+    /* margin-top: 6em; */
+    font-weight: 2000;
+    font-family: 'Heebo', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Raleway', sans-serif;
+text-decoration: underline;
+}
+.footer> div{
+    display: grid;
+}
